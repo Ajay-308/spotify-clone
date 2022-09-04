@@ -1,0 +1,122 @@
+body {
+  background-color: floralwhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 30px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-family: "Cambria";
+}
+nav ul li {
+  padding: 10px;
+}
+.brand img {
+  width: 40px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.3rem;
+}
+
+.container {
+  min-height: 60vh;
+  background-color: black;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  margin: 10px auto;
+  width: 70%;
+  height: auto;
+  border-radius: 15px;
+  padding: 15px;
+  background-image: url(17.jpg);
+}
+.bottom {
+  position: sticky;
+  height: 75px;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+.icons {
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+.icon {
+  cursor: pointer;
+}
+
+#myprogressbar {
+  width: 80vw;
+  justify-content: center;
+  text-align: center;
+  margin-left: 100px;
+}
+.songitem {
+  height: 50px;
+  display: flex;
+  color: black;
+  font-weight: bold;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  padding: 2px;
+  margin: 12px 0px;
+}
+
+.songitem img {
+  width: 65px;
+  padding: 10px;
+  border-radius: 150px;
+  border-bottom-left-radius: 50px;
+}
+.timestamp {
+  margin: 23px 0px;
+}
+
+.timestamp {
+  cursor: pointer;
+}
+
+.songinfo {
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  margin-left: 40px;
+  padding-top: 5px;
+}
+
+.songinfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.songitemplay {
+  cursor: pointer;
+  padding-left: 6px;
+}
+.songname {
+  padding: 10px;
+}
