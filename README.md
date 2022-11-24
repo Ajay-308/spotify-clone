@@ -5,7 +5,7 @@ A web Application that play differnet song for your . In this web app you can fi
 
 # Technologies used 
 
-# HTML
-# CSS
-# JavaScript
-# Node.js
+ HTML
+ CSS
+ JavaScript
+ Node.js
