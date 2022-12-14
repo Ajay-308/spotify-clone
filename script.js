@@ -113,7 +113,7 @@ document.getElementById("previous").addEventListener("click", () => {
   } else {
     songIndex -= 1;
   }
-  audioElement.src = `${songIndex + 1}.mp3`;
+  audioElement.src = `${songIndex - 1}.mp3`;
   mastersongname.innerText = songs[songIndex].songname;
   audioElement.currentTime = 0;
   audioElement.play();
